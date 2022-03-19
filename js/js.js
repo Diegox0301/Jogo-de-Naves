@@ -25,7 +25,9 @@ var perdidos=0;
 var TECLA = {
 	W: 87,
 	S: 83,
-	D: 68
+    D: 68,
+    A: 65,
+	Enter: 13
 	}
 
 	jogo.pressionou = [];
@@ -104,7 +106,7 @@ function movefundo() {
             }
         }
         
-        if (jogo.pressionou[TECLA.D]) {
+        if (jogo.pressionou[TECLA.Enter]) {
             
             //Chama função Disparo	
             
